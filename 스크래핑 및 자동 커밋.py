@@ -12,7 +12,7 @@ def run(cmd):
 
 def scrape_naver_sports():
     options = Options()
-    options.add_argument("--headless")  # 브라우저 창 안 띄움
+    #options.add_argument("--headless")  # 브라우저 창 안 띄움
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
