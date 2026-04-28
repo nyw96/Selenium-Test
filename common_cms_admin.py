@@ -13,7 +13,7 @@ driver = webdriver.Chrome(service=service)
 
 
 try:
-    driver.get("https://common-cms-admin.dev.onkakao.net/")
+    driver.get("https://샌박 어드민 페이지")
     time.sleep(1)
 
     page_title = driver.title
