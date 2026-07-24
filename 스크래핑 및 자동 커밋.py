@@ -67,7 +67,7 @@ def save_and_commit(news_list):
     run("git add -A")
     if run(f'git commit -m "news: 스포츠 뉴스 수집 {date_str} {time_str}"'):
         if run("git push origin main"):
-            print(f"GitHub 푸시 완료!")
+            print(f"GitHub 푸시 완료!!!")
         else:
             print("푸시 실패")
     else:
