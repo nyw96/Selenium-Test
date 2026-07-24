@@ -45,7 +45,7 @@ try:
     )
     target.click()
 
-    print("✅ 검색 결과 페이지 이동 성공")
+    print("✅ 검색 결과 페이지 이동 성공!!")
     print("선택한 추천어:", first_text)
     #print("현재 URL:", driver.current_url)
 
