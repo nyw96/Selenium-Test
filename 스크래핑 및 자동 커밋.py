@@ -74,7 +74,7 @@ def save_and_commit(news_list):
         print("커밋할 변경사항 없음")
 
 if __name__ == "__main__":
-    print("네이버 스포츠 뉴스 수집 시작...")
+    print("네이버 스포츠 뉴스 수집 시작....")
     news = scrape_naver_sports()
     save_and_commit(news)
     print("완료!")
