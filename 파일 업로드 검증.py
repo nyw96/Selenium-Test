@@ -18,7 +18,7 @@ try:
     file_name = os.path.basename(file_path)
 
     if not os.path.exists(file_path):
-        raise Exception(f"파일이 존재하지 않습니다: {file_path}")
+        raise Exception(f"파일이 존재하지 않습니다!: {file_path}")
 
     upload_input = wait.until(
         EC.presence_of_element_located((By.XPATH, "//input[@type='file']"))
@@ -49,7 +49,7 @@ try:
 
     body_text = driver.find_element(By.TAG_NAME, "body").text
 
-    print("\n===============================")
+    print("\n\n===============================")
     print("📌 업로드된 TXT 파일 내용 출력")
     print("===============================")
     print(body_text)

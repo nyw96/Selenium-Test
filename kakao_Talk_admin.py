@@ -12,7 +12,7 @@ service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 
 try:
-    driver.get("https://샌박버전 어드민페")
+    driver.get("https://샌박버전 어드민페이지")
     time.sleep(1)
 
     page_title = driver.title
